@@ -1,15 +1,15 @@
 import React from 'react';
-import {View, Text}from 'react-native';
+import { View, Text } from 'react-native';
 
 const App = () => {
-  return ( 
-    <View className="margin-4px">
-      <Text>T O D O</Text>
+  return (
+    <View className="">
+      <Text className="text-yellow-500">T O D O</Text>
       <View>
-        <Text  className="text-lg text-white">Create new ToDo item</Text>
+        <Text className="text-lg text-white">Create new ToDo item</Text>
       </View>
     </View>
-    
+
   );
 }
 
