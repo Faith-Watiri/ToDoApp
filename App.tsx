@@ -1,16 +1,13 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {AppStack} from './src/stack';
 
 const App = () => {
   return (
-    <View className="">
-      <Text className="text-yellow-500">T O D O</Text>
-      <View>
-        <Text className="text-lg text-white">Create new ToDo item</Text>
-      </View>
-    </View>
-
+      <NavigationContainer>
+          <AppStack/>
+      </NavigationContainer>
   );
-}
+};
 
 export default App;
